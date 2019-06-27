@@ -1,6 +1,5 @@
 <template>
-    <div id="app">
-        <div class="theme-container" :class="{'sidebar-open':iskq}">
+            <div class="theme-container" :class="{'sidebar-open':iskq}">
             <header class="navbar">
                 <div class="sidebar-button" @click="iskq=!iskq">
                     <svg
@@ -25,10 +24,8 @@
                 </div>
             </div>
         </div>
-
-        <router-view/>
-    </div>
 </template>
+
 <script>
 
 
@@ -37,12 +34,11 @@ export default {
         return{
             iskq:false
         }
-    },
-   created:function(){
-       console.log(this.iskq) 
-   }
+    }
 }
 </script>
+
+
 
 
 <style <style scoped>
@@ -151,3 +147,4 @@ body {
     }
 }
 </style>
+
