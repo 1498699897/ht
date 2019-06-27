@@ -32,6 +32,7 @@
 <script>
 
 
+
 export default {
     data:function(){
         return{
@@ -39,7 +40,8 @@ export default {
         }
     },
    created:function(){
-       console.log(this.iskq) 
+       console.log(this.iskq) ;
+       
    }
 }
 </script>
